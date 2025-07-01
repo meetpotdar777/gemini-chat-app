@@ -53,7 +53,7 @@ const App = () => {
       };
       
       // API key is left empty; Canvas will inject it at runtime.
-      const apiKey = "AIzaSyBSxttHsKzd4OUMTd8bewQm8cNiPTkitDI";
+      const apiKey = "PUT YOUR API KEY HERE";
       const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
       const response = await fetch(apiUrl, {
